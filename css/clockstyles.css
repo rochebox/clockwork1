@@ -1,0 +1,55 @@
+/* CSS for Clock project */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@700&display=swap');
+
+/* font-family: 'Exo', sans-serif;*/
+body {
+	background-color: dodgerblue;
+}
+
+
+
+#allClocks {
+	width: 100%;
+	height: 1100px;
+	border: 2px solid purple;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.clockCanvas {
+	background-color:#333;
+	margin:10px;
+
+	border-radius: 35px 20px;
+	border: 2px solid red;
+}
+
+.clockShelf {
+	width: 0;
+	margin: 0;
+	border: 2px solid black;
+	width: 90%;
+	height: 425px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 2.5% ;
+}
+
+.clockBox {
+	float:left;
+	width: 24.5%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	border: 2px solid yellow;
+}
+
+.clockTitle {
+	width: 100%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	border: 2px solid orange;
+}
